@@ -1,0 +1,474 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    
+    <link href="assets/css/style.css" rel="stylesheet">
+    <link href="assets/css/responsive.css" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/smoothDivScroll.css">
+	<title>Kiosque</title>
+</head>
+<body>
+<div class="container">
+		<a class="navbar-brand" href="#"><div class="logo">
+				 	<h4><span>K</span>IOSQUE</h4>
+			</div>
+		</a>
+		<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+	            	<span class="sr-only">Toggle navigation</span>
+	            	<i class="fa fa-bars fa-3x"></i>
+	    </button>
+	<div class="between-nav">
+	<div class="flex-nav">
+	    <ul class="navbar-nav mr-auto">
+		      		<li class="nav-item active"><a class="text-dark" href="index.html">accueil</a></li>
+			  		<li class="nav-item"><a class="text-dark" href="kiosque.html">
+			 		 kiosque</a></li>
+			  		<li class="nav-item"><a class="text-dark" href="bibliotheque.html">
+			  		ma bibliothèque</a></li>
+			  		<li class="nav-item"><a class="text-dark" href="pack.html">
+			  		pack & abonnements</a></li>
+			  		<li class="nav-item"><a class="text-dark" href="liste-kiosque.html">
+			 		 kiosque</a></li>
+		</ul>
+	</div>
+	<div>
+	<!--ul class="nav navbar-nav navbar-right ul-right"-->
+				  	<!--li class="nav-item active">
+						  <button type="#" onclick="searchs()" id="nav-btn">
+						  	<img src="assets/img/shape.svg"/></button>	
+				    </li-->
+				    <!--li class="nav-item radius-price">
+				    	<button href="#" class="nav-price">
+				      	<span class="span-add">$ 45.77 </span>
+				      	<span class="add"></span>
+				      </button>
+				    </li-->
+				    <!--li class="nav-item">
+				       <a class="nav-profil">
+				       		<img class="img-fluid" src="assets/img/profile.svg"/>
+				       </a>
+				    </li>
+		         </ul-->
+	    	</div>
+	</div>
+</div>
+<section>
+ <div id="myCarousel" class="carousel slide" data-ride="carousel">
+    <div class="carousel-inner">
+      	<div class="item active">
+      		<div class="slider">
+      			<div class="overly-slid"></div>
+        		<img src="assets/img/slid.jpeg" alt="" style="width:100%;">
+          		<div class="carousel-caption"
+          		>
+	          		<div class="nouveaute">nouveauté</div>
+			          <h2 class="decouvrer-le-meilleu">Découvrir le meilleur du journalism en un clic</h2>
+        		</div>
+    		</div>
+      </div>
+      <div class="item">
+	      	<div class="slider">
+	      		<div class="overly-slid"></div>
+	        	<img src="assets/img/slid2.jpg" alt="" style="width:100%;">
+	        	<div class="carousel-caption">
+		          <div class="nouveaute">nouveauté</div>
+	          		<h2 class="decouvrer-le-meilleu">Découvrir le meilleur du journalism en un clic</h2>
+	        	</div>
+	    	</div>
+      </div>
+    
+      <div class="item">
+      	<div class="slider">
+      		<div class="overly-slid"></div>
+        		<img src="assets/img/slid3.jpg" alt="" style="width:100%;">
+        		<div class="carousel-caption">
+		          
+		          <div class="nouveaute">nouveauté</div>
+		          <h2 class="decouvrer-le-meilleu">Découvrir le meilleur du journalism en un clic</h2>
+        		</div>
+    		</div>
+       </div>
+    </div>
+    <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+      	<span class="arrow-left">
+      		<i class="fa fa-2x fa-arrow-left" aria-hidden="true"></i>
+  		</span>
+    </a>
+    <a class="right carousel-control" href="#myCarousel" data-slide="next">
+      	<span class="arrow-right">
+      		<i class="fa fa-2x fa-arrow-right" aria-hidden="true"></i>
+      	</span>
+    </a>
+</div>
+</section>
+<br/>
+<section class="grid-mesonry" id="masonry">
+<div class="masonry" id="makeMeScrollable">
+  	<div class="items">
+   		<a class="item-link" href="#">actualité</a>
+   		<img src="assets/img/actualite.jpg">
+  	</div>
+    
+    <div class="items">
+	    <a class="item-link" href="#">architecture & déco</a>
+		<img src="assets/img/deco.jpg">
+  	</div>
+  	<div class="items">
+	    <a class="item-link" href="#">economie & finance</a>
+		<img src="assets/img/economie.jpg">
+  	</div>
+    <br/>
+  	<div class="items">
+	    <a class="item-link" href="#">pour elle</a>
+		<img src="assets/img/pour-elle3.jpg">
+  	</div>
+  	<div class="items">
+	    <a class="item-link" href="#">luxe</a>
+		<img src="assets/img/luxe.jpg">
+  	</div>
+   	<div class="items">
+	    <a class="item-link" href="#">pour lui</a>
+		<img src="assets/img/pour-lui.jpg">
+  	</div>
+  	<div class="items">
+    	<a class="item-link" href="#">société</a>
+    	<img src="assets/img/actualite2.jpg">
+  	</div>
+  	<div class="items">
+	    <a class="item-link" href="#">Tous</a>
+		<img src="assets/img/deco3.jpg">
+  	</div>
+</div>
+</section>
+<section class="population">
+<div class="container">
+	<!--<div class="text-center">-->
+		<h1 class="title-populaires">Populaire</h1>
+	<!--</div>-->
+	<ul class="nav nav-tabs">
+	  	<li class="active">
+	  		<a data-toggle="tab" href="#aujrdhui">Aujourd’hui</a>
+	  	</li>
+	  	<li>
+	  		<a data-toggle="tab" href="#top">Top lus</a>
+	  	</li>
+	  	<li>
+	  		<a data-toggle="tab" href="#nvt">Nouveauté</a>
+	  	</li>
+	  	<li>
+	  		<a data-toggle="tab" href="#pourvs">Pour vous</a>
+	  	</li>
+	  	<select name="genre" id="genres">
+		    <option value="">genre</option>
+		    <option value="auj">aujourd'hui</option>
+		    <option value="top">top</option>
+		    <option value="pourelle">pour elle</option>
+		    <option value="pourlui">pour lui</option>
+		    <option value="actualite">actualité</option>
+		    <option value="luxe">luxe</option>
+		</select>
+	</ul>
+<div class="tab-content">
+  	<div id="aujrdhui" class="tab-pane fade in active">
+    	<div class="row">
+    		<div class="col-md-3 col-12">
+	     		<div class="card">
+	     			<div class="card-img-overlay"> </div>
+	     			<div class="flex">
+	     			    <p class="cat">actualité</p>
+	                	<img src="assets/img/sport.png" class="card-img-top" alt="Accroche HTML">
+	                	
+	                </div>
+	                <div class="card-body">
+	                	<p>- Magazine-</p>
+	                    <h4 class="card-title">L'OPINION</h4>
+	                    <h5 class="card-subtitle">N° 19 AVR 2019</h5>
+	                </div>
+	       		</div>
+			</div>
+			<div class="col-md-3 col-12">
+	     		<div class="card">
+	     			<div class="card-img-overlay"> </div>
+	     			<div class="flex">
+	     			    <p class="cat">Santé & bien-être</p>
+	                	<img src="assets/img/1.png" class="card-img-top" alt="Accroche HTML">
+	                	
+	                </div>
+	                <div class="card-body">
+	                    <p>- Magazine-</p>
+	                    <h4 class="card-title">ON-MAG</h4>
+	                    <h5 class="card-subtitle">N° 19 AVR 2019</h5>
+	                    
+	                </div>
+	      		</div>
+			</div>
+			<div class="col-md-3 col-12">
+			     <div class="card">
+			     	<div class="card-img-overlay"> 
+			     	</div>
+			     	<div class="flex">
+			     	      <p class="cat">Architecture & Deco</p>
+			              <img src="assets/img/offic.png" class="card-img-top" alt="Accroche HTML">
+			             
+			        </div>
+			        <div class="card-body">
+			                    <p>- Magazine-</p>
+			                	
+			                    <h4 class="card-title">L'OFFICIEL</h4>
+			                    <h5 class="card-subtitle">N° 19 AVR 2019</h5>
+			                    
+			       	</div>
+			    </div>
+			</div>
+			<div class="col-md-3 col-12">
+	    	 	<div class="card">
+	         		<div class="card-img-overlay"> </div>
+	         		<div class="flex">
+	         		    <p class="cat">Santé & bien-être</p>
+	                	<img src="assets/img/1.png" class="card-img-top" alt="Accroche HTML">
+	                	
+	                </div>
+	                <div class="card-body">
+	                    <p>- Magazine-</p>
+	                	
+	                    <h4 class="card-title">ICONES</h4>
+	                    <h5 class="card-subtitle">N° 19 AVR 2019</h5>
+	                    
+	                </div>
+	           	</div>
+			</div>
+			<div class="col-md-3 col-12">
+			     <div class="card">
+			     	<div class="card-img-overlay"></div> 
+			     	<div class="flex">
+			     		<p class="cat">sport</p>
+			                <img src="assets/img/sport.png" class="card-img-top" alt="Accroche HTML">
+			                
+			        </div>
+			        <div class="card-body">
+			                    <p>- Magazine-</p>
+			                	
+			                    <h4 class="card-title">VH</h4>
+			                    <h5 class="card-subtitle">N° 19 AVR 2019</h5>
+			                    
+			                </div>
+			             
+			      </div>
+			</div>
+			<div class="col-md-3 col-12">
+			     <div class="card">
+			         <div class="card-img-overlay"></div>
+			         <div class="flex">
+			         	<p class="cat">Santé & bien-être</p>
+			                <img src="assets/img/offic2.png" class="card-img-top" alt="Accroche HTML">
+			                
+			        </div>
+			                <div class="card-body">
+			                
+			                    <p>- Magazine-</p>
+			                	
+			                    <h4 class="card-title">L'Officiel</h4>
+			                    <h5 class="card-subtitle">N° 19 AVR 2019</h5>
+			                    
+			                </div>
+			               
+			      </div>
+			</div>
+			<div class="col-md-3 col-12">
+			     <div class="card">
+			     	<div class="card-img-overlay"></div>
+			     	<div class="flex">
+			     	<p class="cat">Santé & bien-être</p>
+			                <img src="assets/img/femmes.png" class="card-img-top" alt="Accroche HTML">
+			                
+			          </div>
+			                <div class="card-body">
+			                
+			                    <p>- Magazine-</p>
+			                	
+			                    <h4 class="card-title">FEMMES DU MAROC</h4>
+			                    <h5 class="card-subtitle">N° 19 AVR 2019</h5>
+			                    
+			                </div>
+			               
+			      </div>
+			</div>
+			<div class="col-md-3 col-12">
+			     <div class="card">
+			     	<div class="card-img-overlay"></div>
+			     	<div class="flex">
+			     	<p class="cat">aujourd'hui</p>
+			                <img src="assets/img/2.png" class="card-img-top" alt="Accroche HTML">
+			                
+			        </div>
+			                <div class="card-body">
+			                    <p>- Magazine-</p>
+			                	
+			                    <h4 class="card-title">AKHBAR ALYAOUM</h4>
+			                    <h5 class="card-subtitle">N° 19 AVR 2019</h5>
+			                    
+			                </div>
+			      </div>
+			</div>
+  		</div>
+	</div>
+  	<div id="top" class="tab-pane fade">
+    	<div class="row">
+			<div class="col-md-3 col-12">
+			     <div class="card">
+			     	<div class="card-img-overlay"></div>
+			     	<div class="flex">
+			     	<p class="cat">Santé & bien-être</p>
+			                <img src="assets/img/1.png" class="card-img-top" alt="Accroche HTML">
+			                
+			         </div>
+			                <div class="card-body">
+			                
+			                    <p>- Magazine-</p>
+			                	
+			                    <h4 class="card-title">ON-MAG</h4>
+			                    <h5 class="card-subtitle">N° 19 AVR 2019</h5>
+			                    
+			                </div>
+			            
+			      </div>
+			</div>
+  		</div>
+  	</div>
+  	<div id="nvt" class="tab-pane fade">
+    	<div class="row">
+		    <div class="col-md-3 col-12">
+			     <div class="card">
+			     	<div class="card-img-overlay"></div>
+			     	<div class="flex">
+			     	<p class="cat">actualité</p>
+			                <img src="assets/img/2.png" class="card-img-top" alt="Accroche HTML">
+			                
+			        </div>
+			                <div class="card-body">
+			                	<p>- Magazine-</p>
+			                	<p class="cat">actualité</p>
+			                    <h4 class="card-title">L'OPINION</h4>
+			                    <h5 class="card-subtitle">N° 19 AVR 2019</h5>
+			                    
+			                </div>
+			           
+			      </div>
+			</div>
+			<div class="col-md-3 col-12">
+			     <div class="card">
+			     	<div class="card-img-overlay"></div>
+			     	<div class="flex">
+			     	<p class="cat">sport</p>
+			                <img src="assets/img/sport.png" class="card-img-top" alt="Accroche HTML">
+			                
+			         </div>
+			                <div class="card-body">
+			                	
+			                    <p>- Magazine-</p>
+			                	
+			                    <h4 class="card-title">VH</h4>
+			                    <h5 class="card-subtitle">N° 19 AVR 2019</h5>
+			                    
+			                </div>
+			           
+			      </div>
+			</div>
+  		</div>
+  	</div>
+    <div id="pourvs" class="tab-pane fade">
+    	<div class="row">
+			<div class="col-md-3 col-12">
+			     <div class="card">
+			     	<div class="card-img-overlay"></div>
+			     	<div class="flex">
+			     	<p class="cat">sport</p>
+			                <img src="assets/img/sport.png" class="card-img-top" alt="Accroche HTML">
+			               
+			            </div>
+			                <div class="card-body">
+			                    <p>- Magazine-</p>
+			                	
+			                    <h4 class="card-title">VH</h4>
+			                    <h5 class="card-subtitle">N° 19 AVR 2019</h5>
+			                    
+			                </div>
+			            
+			      </div>
+			</div>
+			<div class="col-md-3 col-12">
+			     <div class="card">
+			     	<div class="card-img-overlay"></div>
+			     	<div class="flex">
+			     	<p class="cat">Santé & bien-être</p>
+
+			                <img src="assets/img/femmes.png" class="card-img-top" alt="Accroche HTML">
+			                
+			            </div>
+			                <div class="card-body">
+
+			                    <p>- Magazine-</p>
+			                	
+			                    <h4 class="card-title">FEMMES DU MAROC</h4>
+			                    <h5 class="card-subtitle">N° 19 AVR 2019</h5>
+			                    
+			         </div>
+			    </div>
+	    	</div>
+  		</div>
+  	</div>
+</div>
+</section>
+<section class="produits text-center">
+   		<a href="liste-kiosque.html" class="btn btn-large btn-prod">Voir tous les produits
+   		</a>
+</section>
+<section class="partenaires">
+		<div class="text-center">
+			<h3>Nos Partenaires</h3>
+			<img src="assets/img/part1.png"/>
+			<img src="assets/img/part2.png"/>
+			<img src="assets/img/part3.png"/>
+			<img src="assets/img/part4.png"/>
+			<img src="assets/img/part5.png"/>
+		</div>
+</section>
+<div class="pre-footer">
+	<div class="container">
+		<div class="row justify-content-between">
+			<div class="col-md-8 col-12">
+			   <div class="logo">
+				 	<h4><span>K</span>IOSQUE</h4>
+			   </div>
+			</div>
+			<div class="col-md-4 col-12 text-right">
+			   <div class="socialm">
+			   		Suivez nous sur
+					<a href="#"><img src="assets/img/fb.svg"/></a>
+					<a href="#"><img src="assets/img/Twitter.svg" /></a>
+			   </div>
+			</div>
+		</div>
+	</div>
+</div>
+<section class="footer">
+        <div class="row justify-content-center">
+			<p class="copyright text-center">© fatima ait mouss</p>
+        </div>
+</section>
+
+<script src="https://code.jquery.com/jquery-1.12.4.min.js" ></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js" ></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js"  ></script>
+<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-mousewheel/3.1.13/jquery.mousewheel.min.js"></script>
+<script src="assets/js/jquery.smoothdivscroll.min.js" type="text/javascript"></script>
+<script src="assets/js/costum.js"></script>
+</body>
+</html>

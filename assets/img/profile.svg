@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="20px" height="19px" viewBox="0 0 20 19" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: sketchtool 53.2 (72643) - https://sketchapp.com -->
+    <title>180A108D-5CBF-49C3-95C8-F5C4A005BF67</title>
+    <desc>Created with sketchtool.</desc>
+    <defs>
+        <polygon id="path-1" points="0 0 1456 0 1456 80 0 80"></polygon>
+        <filter x="-0.0%" y="-0.6%" width="100.1%" height="102.5%" filterUnits="objectBoundingBox" id="filter-2">
+            <feOffset dx="0" dy="1" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.1 0" type="matrix" in="shadowOffsetOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="pages" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Homepage---PalmaSurvole" transform="translate(-1260.000000, -31.000000)">
+            <rect fill="#FFFFFF" x="0" y="0" width="1440" height="4185"></rect>
+            <g id="Nav/Global/Default" transform="translate(-0.000000, 0.000000)">
+                <g id="Rectangle">
+                    <use fill="black" fill-opacity="1" filter="url(#filter-2)" xlink:href="#path-1"></use>
+                    <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-1"></use>
+                </g>
+                <g id="profile" transform="translate(1260.000000, 31.000000)" fill="#33333A" fill-rule="nonzero">
+                    <path d="M9.9570922,10.6498532 C12.9097872,10.6498532 15.3047163,8.26468216 15.3047163,5.32409665 C15.3047163,2.38351115 12.9097518,0.0146561338 9.9570922,0.0146561338 C7.00443262,0.0146561338 4.60946809,2.39982714 4.60946809,5.32409665 C4.60946809,8.24836617 7.00439716,10.6498532 9.9570922,10.6498532 Z M9.9570922,1.40328067 C12.1223759,1.40328067 13.8940071,3.16763197 13.8940071,5.32409665 C13.8940071,7.48056134 12.1223759,9.24487732 9.9570922,9.24487732 C7.79180851,9.24487732 6.0201773,7.48052602 6.0201773,5.32406134 C6.0201773,3.16759665 7.79177305,1.40328067 9.9570922,1.40328067 Z" id="Shape"></path>
+                    <path d="M0.70535461,18.9652138 L19.2744326,18.9652138 C19.6681206,18.9652138 19.9797872,18.6548216 19.9797872,18.2627435 C19.9797872,14.5869851 16.9779078,11.5810297 13.2706383,11.5810297 L6.70914894,11.5810297 C3.01829787,11.5810297 0,14.5706338 0,18.2627435 C0,18.6548216 0.311666667,18.9652138 0.70535461,18.9652138 Z M6.70914894,12.9859703 L13.2706383,12.9859703 C15.9608511,12.9859703 18.1753546,14.9790632 18.5198582,17.5602379 L1.45992908,17.5602379 C1.80439716,14.9954145 4.01893617,12.9859703 6.70914894,12.9859703 Z" id="Shape"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

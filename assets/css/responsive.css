@@ -1,0 +1,249 @@
+@media (max-width:1199px)     {
+
+}
+@media (max-width:991px)      {
+	.navbar-toggle{
+  	display: block;
+	}
+	.flex-nav{
+	  display:none;
+	}
+	.slider{
+		position: relative;
+		width:100%;
+		height: auto
+	}
+	.overly-slid{
+		z-index:2;
+	}
+	.menu li:hover{
+	    background-color:#9ABC35;
+	    text-decoration: none;
+	    height:110%;
+	    width:90%;
+	    transition: background 1s;
+	}
+	.slider .item {
+		height: 100vh;
+		min-height: 350px;
+		background: no-repeat center center scroll;
+		-webkit-background-size: cover;
+		-moz-background-size: cover;
+		-o-background-size: cover;
+		background-size: cover;
+	}
+	#myCarousel.carousel img {
+	    width: 100%;
+	    height: auto;
+    }
+    .carousel-caption{
+    	position: absolute;
+    	top:20%;
+    	left:10%;
+    	z-index:3;
+    }
+    .decouvrer-le-meilleu {
+		color: rgba(255,255,255,0.87);
+		font-family: Helvetica;
+		font-size: 40px;
+		letter-spacing: 0;
+		line-height: 30px;
+		width:100%;
+		left:0;
+	}
+	.explore{
+		position: absolute;
+		top:60%;text-align: center;
+		width:50%;
+		z-index: 4;
+	}
+
+	.explorer-maintenant {
+		height: 35px;
+		width: 300px;
+		color: #FFFFFF;
+		font-family: Roboto;
+		font-size: 30px;
+		letter-spacing: -0.29px;
+		line-height: 35px;
+		padding: 5px 2px;
+		float: left;
+		border-radius: 30px  
+	}
+	.search{
+		height: 35px;
+		width:50px;
+		line-height: 35px;
+		background-color:#9ABC35;
+		color: white ;
+		border-left:none;
+		padding: 5px 2px 5px 4px;
+		border-radius: 30px
+	}
+	.circle-bottom i{
+		vertical-align: middle;
+	}
+    .masonry {
+        -moz-column-count: 2;
+        -webkit-column-count: 2;
+        column-count: 2;
+    }
+    .container-two{
+	  	padding:30px 60px 
+	}
+	.container-three{
+		padding:20px 60px
+	}
+    .inscrire input[type=text]{
+		height: 56px;
+		width: 50%;
+		border-radius: 27px;
+		background-color: #FFFFFF;
+	}
+	.inscrire input[type=submit] {
+  		height: 56px;
+  		width: 30%;
+  		border-radius: 27px;
+  		background-color: #9ABC35;
+  		color: white 
+	}
+
+	.pack-box{
+		display: block;
+		width: 100%;
+		height: auto;
+	}
+}
+@media (max-width:767px)    {
+	.flex-nav{
+		display: none;
+		margin:50px auto;
+		padding:10px;
+		left:0;
+		position:absolute;
+		width:100%;
+		height: 100vh;
+		color: white;
+		background-color: rgba(0,0,0,.8);
+		z-index: 999
+	}
+	.flex-nav li:hover{
+        background-color: #9ABC35;
+        color: white
+	}
+	.flex-nav ul li a{
+		color: white;
+		padding-top: 50px;
+		font-size: 20px
+	}
+	.navbar-toggle{
+  	display: block;
+	}
+	.navbar-collapse.collapse{
+		display: flex;
+		align-items: center;
+	}
+   .slider{
+	   	position: relative;
+	   	width:100%;
+	   	height:auto;
+   }
+    .slider .item {
+	  	height: 100vh;
+	  	min-height: 350px;
+	  	background: no-repeat center center scroll;
+	  	-webkit-background-size: cover;
+	  	-moz-background-size: cover;
+	  	-o-background-size: cover;
+	  	background-size: cover;
+	}
+	.overly-slid{
+		z-index:2;
+	}
+    #myCarousel.carousel img {
+	    max-width:300%;
+	    width:150%;
+	    min-height: 300px;
+    }
+	.carousel-caption{
+    	position: absolute;
+    	width:80%;
+    	top:20%;
+    	left:10%;
+    	z-index:3;
+    }
+    .explorer-maintenant {
+		height: 35px;
+		width:200px;
+		color: #FFFFFF;
+		font-family: Roboto;
+		font-size: 14px;
+		padding: none;
+		float: left;
+		letter-spacing: -0.29px;
+		line-height: 35px;
+		text-align: center;
+		border-radius: 30px 
+	}
+	.search{
+		height: 35px;
+		width:50px;
+		line-height: 35px;
+		background-color:#9ABC35;
+		color: white ;
+		padding: none;
+		border-left:none;
+		vertical-align: middle;
+		border-radius: 30px
+	}
+	.decouvrer-le-meilleu {
+		color: rgba(255,255,255,0.87);
+		font-family: Helvetica;
+		font-size: 20px;
+		letter-spacing: 0;
+		width:100%;
+		left:0;
+	}
+    .explore h3{
+		padding-bottom: 10px;
+	}
+	.explore{
+		position: absolute;
+		width: 60%;
+		z-index:4;
+		left:20%;
+		top:50%;
+	}
+	.circle-bottom{
+		padding: 7px;
+		position: relative;
+		left:0;
+		top:0;
+		vertical-align: middle;
+		background-color: #9ABC35;
+		float: left
+	}
+	.circle-bottom i{
+		vertical-align: middle;
+	}
+	.masonry {
+        -moz-column-count: 1;
+        -webkit-column-count: 1;
+        column-count: 1;
+    }
+    .container-two{
+	  	padding:20px 40px 
+	}
+	.container-three{
+	  	padding: 10px 30px
+	}
+    .caption{
+    	position: absolute;
+    	top:100px;
+    }
+    .pack-box{
+		display: block;
+		width: 100%;
+		height: auto;
+	}
+}
